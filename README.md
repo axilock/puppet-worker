@@ -51,10 +51,10 @@ The worker can be configured using environment variables or a `.env` file:
 ## Running the Worker
 
 ```bash
-# Start a worker with 4 processes
+
 chmod +x run_worker.sh
 
-./run_worker.sh
+./run_worker.sh 20 # this will run 20 workers
 ```
 
 The worker will automatically fetch queue configuration from the server. No manual queue specification is needed or allowed.
